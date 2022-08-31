@@ -1,0 +1,13 @@
+package br.com.banco.modelo;
+
+public class ContaBancaria {
+
+	public static void main(String[] args) {
+		String  numconta;
+		String  cliente;
+		double saldo;
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package br.com.wyden.poo;
+
+import java.util.Scanner;
+
+public class ExecutaAluno {
+
+	public static void main(String[] args) {
+
+		Aluno objAluno = new Aluno("João", 20, "Letras");
+		
+		/*
+		Aluno objAluno;
+		objAluno = new Aluno();
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Nome do aluno: ");
+		objAluno.nome = entrada.nextLine();
+		objAluno.idade = 19;
+		objAluno.curso = "Pedagogia";
+		*/
+		
+		//objAluno.matricular();
+		//objAluno.retirarLivro();
+		
+		objAluno.setIdade(18);
+		objAluno.matricular();
+		
+		System.out.println(objAluno.getNome() + 
+				" tem " +
+				objAluno.getIdade() +
+				" anos e cursa " +
+				objAluno.getCurso());
+
+	}
+
+}

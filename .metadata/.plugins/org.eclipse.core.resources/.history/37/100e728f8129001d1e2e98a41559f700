@@ -1,0 +1,14 @@
+package br.com.banco.modelo;
+
+public class ContaBancaria {
+	protected String  numconta;
+	protected String  cliente;
+	protected double saldo;
+	public static void main(String[] args) {
+		
+		
+		// TODO Kill my self
+
+	}
+
+}
