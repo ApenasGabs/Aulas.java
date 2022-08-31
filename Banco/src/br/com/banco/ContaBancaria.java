@@ -1,4 +1,4 @@
-package br.com.banco.modelo;
+package br.com.banco;
 
 public class ContaBancaria {
 	protected String  numconta;
@@ -34,12 +34,25 @@ public class ContaBancaria {
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
-
-
+	void contaBancaria(String numconta,String cliente, double saldo) {
+		  this.numconta	= numconta;
+		  this.cliente = cliente;
+		  this.saldo = saldo;
+		
+		
+	}
+	public void depositar(double valor) {
+		this.saldo =+ valor;
+		
+	}
+	public void sacar(double valor) {
+		this.saldo =- valor;
+		
+	}
 	public static void main(String[] args) {
 		
 		
-		// TODO Kill my self
+		// TODO Kill my self 
 
 	}
 
